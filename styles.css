@@ -1,0 +1,240 @@
+html{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #5A0203;
+    line-height: 1.5;
+    background-color: #FFF6CB;
+    max-width:1280px;
+    margin:auto;
+}
+
+body{
+    margin: auto;
+    padding: 16px;
+}
+
+header{
+    width: 1280px;
+    text-align: center;
+    position: relative;
+    padding-top: 10px;
+    font-size: 36px;
+    padding-bottom: -5px;
+}
+
+#wrapper{
+    width:1280px;
+    margin:auto;
+    display:grid;
+
+}
+
+nav{
+    width: 1280px;
+    margin-top: 8px;
+    text-align: center;
+}
+
+
+nav li{
+    list-style-type:none;
+    text-align:center;
+    display:inline;
+    padding: 16px;
+}
+
+nav a{
+    display: inline-block;
+    padding: 16px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    margin-left: auto;
+    margin-right: auto;
+    text-decoration-line: none;
+    color:#5A0203;
+    background-color: #EC9440;
+    border: 16px;
+    text-align: center;
+}
+
+nav a:hover{
+    background-color: #3B771F;
+    color:#FFF6CB;
+}
+
+main{
+    padding-bottom:16px;
+    text-align: center;
+    font-size: medium;
+}
+
+main img{
+    box-sizing: border-box;
+    position: relative;
+    width: 1280px;
+    height: 472px;
+}
+
+#local-cuisine img{
+    display: block;
+    width:50%;
+    padding: 2px;
+    position:relative;
+    display:flex;
+}
+
+#chef-ly img{
+    display: block;
+    width:50%;
+    padding:2px;
+    position: relative;
+    top: -538px;
+    display:flex;
+}
+
+#local-cuisine h3{
+    float: right;
+    text-align: center;
+    vertical-align: bottom;
+    width:50%;
+    position: relative;
+}
+
+#local-cuisine p{
+    float: left;
+    text-align: center;
+    vertical-align: bottom;
+    width:50%;
+    position: relative;
+    top: 38px;
+
+}
+
+#chef-ly h3{
+    float: left;
+    width:50%;
+    vertical-align: baseline;
+    text-align:center;
+    top: -538px;
+    position: relative;
+
+}
+
+#chef-ly p{
+    float: right;
+    text-align: center;
+    vertical-align: bottom;
+    display: inline;
+    width:50%;
+    top: -500px;
+    position: relative;
+    display:flex;
+}
+
+footer{
+    text-align: center;
+    background-color: #EC9440;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+#form{
+    width: 1280px;
+}
+
+#form img{
+    height: 650px;
+}
+
+form{
+    text-align: center;
+    display: inline-block;
+    margin: 16px auto;
+}
+
+input, label, select, textarea{
+	display: block; 
+	width: 100%; 
+}
+
+label{
+	margin: 0 0 4px 16px; 
+	font-weight: bold;
+}
+
+input, select, textarea{
+	padding: 10px;
+	font-size: 1rem;
+	margin-bottom: 24px;
+	border-radius: 4px;
+	border: 1px inset #196774;
+}
+
+fieldset{
+	margin-bottom: 24px;
+	border-radius: 4px;
+	border-color: #5A0203;
+	display: grid;
+	grid-template-columns: 1fr;
+	gap: 8px 0; 
+}
+
+legend{
+	font-weight: bold;
+}
+
+fieldset label{
+	margin-left: 0;
+}
+
+input[type=submit]{
+	background-color: #EC9440;
+	border: none;
+	color: #5A0203;
+	font-weight: bold;
+	box-shadow: -6px 6px 10px #5A0203;
+}
+
+input:invalid, select:invalid, textarea:invalid{
+	border: 4px solid #EC9440;
+}
+
+input:focus, select:focus, textarea:focus{
+	outline: 3px solid #3B771F;
+}
+
+input[type=submit]:focus{
+	outline: 3px solid #EC9440;
+}
+
+input[type=submit]:hover{
+	box-shadow: -3px 3px 5px #EC9440;
+}
+
+input[type=radio] + label {
+    cursor: pointer;
+}
+
+#footer{
+    width:1280px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
